@@ -5,8 +5,22 @@
 <p> Welcome to our brewsite page</p>
 
 <p> {{ user }}</p>
-<img src="{{ url_for ('static', filename = 'images/BeerMug.png')}}" alt="Cold glass of beer" width="300">
-<p>Image courtesy of Vecteezy</p>
+<img src="{{ url_for ('static', filename = 'images/BeerMug.png')}}" alt="Cartoon glass of beer" width="300">
+<p>"Cartoon Beer glass isolated on a white background” — Richard O'Donoghue, Vecteezy</p>
 
+<img src="{{ url_for ('static', filename = 'images/BeerMug1.png')}}" alt="Glass of beer on table" width="300">
+<p>
+    Photo by
+    <a href="https://unsplash.com/@enginakyurt">Engin Akyurt</a>
+    on
+    <a href="https://unsplash.com/photos/a-glass-of-beer-sitting-on-top-of-a-wooden-table-AJ73tDEX4nQ">Unsplash</a>
+</p>
+
+<img src="{{ url_for ('static', filename = 'images/BeerMug2.png')}}" alt="Two men cheers" width="300">
+<p>
+    Photo by
+    <a href="https://unsplash.com/@willstewart">Will Stewart</a>
+    on
+    <a href="https://unsplash.com/license">Unsplash</a></p>
 
 {% endblock main %}
